@@ -1,0 +1,56 @@
+.login-bar
+{
+    background-color: white;
+    box-shadow:0 2px 2px 3px rgba(0,0,0,0.32);
+    margin:10% 35%;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button-style-login
+{
+  border:none;
+  /* display: flex;
+  justify-content: center; */
+  background-color: white;
+  border-radius: 10px;
+  /* padding: 7px; */
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.button-style-login:hover
+{
+  background-color: rgb(161, 159, 159);
+  -webkit-transition: 0.2s;
+}
+.text-login-register
+{
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+    font-size: 30px;
+}
+.Register-input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+@media (max-width: 720px) {
+
+    .login-bar
+{
+    background-color: white;
+    box-shadow:0 2px 2px 3px rgba(0,0,0,0.32);
+    margin:10% 15%;
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+}
